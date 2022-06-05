@@ -31,7 +31,7 @@ function Cell({ data = {} }) {
   ), [isHighlighted, moveToCell, selectCell]);
 
   return (
-    <button aria-label="chess cell" type="button" className={`cell ${backgroundColor}`} key={`${row}-${column}`} onClick={onClick}>
+    <button aria-label="chess cell" type="button" className={`cell ${backgroundColor}`} onClick={onClick}>
       {occupiedBy && (
         <div className="pawnWrapper">
           <img src={occupiedBy === PLAYER.BLACK ? BlackPawn : WhitePawn} alt="chess pawn" className="pawn" />
