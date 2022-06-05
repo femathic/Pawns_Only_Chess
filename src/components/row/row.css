@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.cell {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-white {
+  background-color: #FFF;
+}
+.bg-black {
+  background-color: #000;
+}
+.black-pawn {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+}
+.white-pawn {
+  width: 20px;
+  height: 20px;
+  background-color:  #FFF;
+}
